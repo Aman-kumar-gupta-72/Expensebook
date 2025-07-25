@@ -34,8 +34,8 @@ function Footer() {
             </ul>
           </div>
 
-          <div className=" md:w-1/4  md:mb-0 flex flex-col">
-            <h3 className="text-lg font-semibold text-white mb-4 mr-52">Connect</h3>
+          <div className=" w-full md:w-1/4  md:mb-0 flex flex-col items-center  ">
+            <h3 className="text-lg font-semibold text-white mb-4 text-center ">Connect</h3>
             <div className="flex gap-5  space-x-4">
               {/* Social Media Icons - Replace with actual icons */}
               <a href="#" className=" text-black  bg-white p-2 hover:text-green"><FaFacebookF /></a>
@@ -43,7 +43,7 @@ function Footer() {
               <a href="#" className=" text-black  bg-white p-2 hover:text-green"><FaTwitter /></a>
             </div>
             <span>
-              <img src={Exptra} alt="" className='h-20 mt-10 ml-10' />
+              <img src={Exptra} alt="" className='h-20 mt-10 ' />
             </span>
           </div>
         </div>
