@@ -8,9 +8,9 @@ const Hero = () => {
   return (
     <div className='w-full'>
       {/* Hero Top Section */}
-      <div className='min-h-[500px] w-full px-6 py-10 text-center'>
+      <div className='min-h-[500px] w-full  px-6 py-10 text-center'>
         <div className='flex flex-col items-center  '>
-          <h1 className='text-3xl sm:text-4xl md:text-5xl font-bold'>
+          <h1 className='text-3xl mt-15 sm:text-4xl md:text-5xl font-bold'>
             Stop notes expence in your diary
           </h1>
           <p className='mt-5 text-lg sm:text-xl'>
